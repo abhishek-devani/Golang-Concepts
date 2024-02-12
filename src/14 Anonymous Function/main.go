@@ -10,10 +10,10 @@ func main() {
 		fmt.Println("anonymous function")
 	}()
 
-	val := func () int {
-		return 10;
+	val := func (a int) int {
+		return a;
 	}
-	fmt.Println(val())
+	fmt.Println(val(10))
 
 	func (v ...string)  {
 		fmt.Println(v)
@@ -27,6 +27,6 @@ func main() {
 
 }
 
-func operate(a, b int, op func(int, int) int ) int {
+func operate(a, b int, op func(int, int) int) int {
 	return op(a, b)
 }

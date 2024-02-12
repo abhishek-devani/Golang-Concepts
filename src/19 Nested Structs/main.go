@@ -32,7 +32,7 @@ func main() {
         }{
             Email: "john.doe@example.com",
             Phone: "+1234567890",
-            Residence: Address{
+            Residence: Address {
                 Street:  "123 Main St",
                 City:    "Anytown",
                 Country: "USA",

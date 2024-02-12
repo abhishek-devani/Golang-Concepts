@@ -19,3 +19,4 @@ workspace/
 - **pkg:** Intermediate compiled packages (object files) will be stored here. This directory is used to store packages that are compiled from your code and are then linked to create the final executable.
 - **src:** This is where your actual Go source code resides. It's organized using the package naming convention. The packages are organized under the src directory based on their import path. In the example above, the import path is github.com/yourusername/yourproject.
 
+- For project we need to create directories such as **main, handlers, services and models.**

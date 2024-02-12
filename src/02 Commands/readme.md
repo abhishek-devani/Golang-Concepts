@@ -21,7 +21,7 @@ go install
 4. **go get:** Downloads and installs packages and their dependencies. It's often used to fetch external packages from version control systems like Git. For example:
 
 ```bash
-go get github.com/example/package
+go get -u github.com/example/package
 ```
 
 5. **go test:** Runs tests in the current package. For example:
